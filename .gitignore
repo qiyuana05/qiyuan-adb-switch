@@ -1,0 +1,41 @@
+# 密钥与证书
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+*.crt
+*.csr
+
+# 构建产物与二进制
+build/
+*.apk
+*.idsig
+*.dex
+*.jar
+*.so
+*.zip
+
+# 日志与原始数据
+*.log
+*.raw.log
+logs/
+dumpsys*.txt
+logcat*.txt
+
+# 本地环境
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 个人备份
+*.bak
+*backup*
